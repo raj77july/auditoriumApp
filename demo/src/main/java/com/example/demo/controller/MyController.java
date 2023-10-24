@@ -50,7 +50,7 @@ public class MyController {
 	@GetMapping("/test")
 	public String displayAllShow1()
 	{
-		return "ShreeRamShree Ram Jai Ram";
+		return "Shree RamShree Ram Jai Ram";
 	}
 	
 
