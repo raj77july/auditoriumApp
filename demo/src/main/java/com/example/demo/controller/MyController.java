@@ -47,6 +47,11 @@ public class MyController {
 		return auditoriumservice.displayAllShow();
 	}
     //added a
+	@GetMapping("/test")
+	public String displayAllShow1()
+	{
+		return "Shree Ram Shree Ram Jai Ram";
+	}
 	
 
 }
