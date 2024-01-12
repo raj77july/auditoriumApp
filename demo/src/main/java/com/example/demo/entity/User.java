@@ -26,6 +26,7 @@ public class User {
 	@Id	
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int user_id;
+	private Boolean isContactLinkEnabled;
 	public int getUser_id() {
 		return user_id;
 	}
@@ -83,6 +84,13 @@ public class User {
 		this.role = role;
 	}
 
+	public void setIsContactLinkEnabled(Boolean isContactLinkEnabled) {
+		isContactLinkEnabled = isContactLinkEnabled;
+	}
+	//Test branch create or not-2
+	public boolean getIsContactLinkEnabled() {
+		return isContactLinkEnabled;
+	}
 }
 
 
