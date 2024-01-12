@@ -87,7 +87,7 @@ public class User {
 	public void setIsContactLinkEnabled(Boolean isContactLinkEnabled) {
 		isContactLinkEnabled = isContactLinkEnabled;
 	}
-	//Test branch create or not
+	//Test branch create or not-2
 	public boolean getIsContactLinkEnabled() {
 		return isContactLinkEnabled;
 	}
