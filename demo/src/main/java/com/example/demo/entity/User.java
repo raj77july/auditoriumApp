@@ -90,6 +90,7 @@ public class User {
 	//Test branch create or not-2
 	//from branch 2323222
 	//new
+	//new
 	public boolean getIsContactLinkEnabled() {
 		return isContactLinkEnabled;
 	}
