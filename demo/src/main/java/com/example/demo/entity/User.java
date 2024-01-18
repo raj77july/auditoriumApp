@@ -94,6 +94,9 @@ public class User {
 	public boolean getIsContactLinkEnabled() {
 		return isContactLinkEnabled;
 	}
+	public boolean getIsContactLinkEnabled2() {
+		return isContactLinkEnabled;
+	}
 }
 
 
